@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Application\bin\Debug\net8.0\StudyBuddy.Application.deps.json
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Application\bin\Debug\net8.0\StudyBuddy.Application.dll
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Application\bin\Debug\net8.0\StudyBuddy.Application.pdb
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Application\bin\Debug\net8.0\StudyBuddy.Domain.dll
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Application\bin\Debug\net8.0\StudyBuddy.Domain.pdb
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Application\obj\Debug\net8.0\StudyBuddy.Application.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Application\obj\Debug\net8.0\StudyBuddy.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Application\obj\Debug\net8.0\StudyBuddy.Application.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Application\obj\Debug\net8.0\StudyBuddy.Application.AssemblyInfo.cs
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Application\obj\Debug\net8.0\StudyBuddy.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Application\obj\Debug\net8.0\StudyBud.8CBEB2DC.Up2Date
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Application\obj\Debug\net8.0\StudyBuddy.Application.dll
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Application\obj\Debug\net8.0\refint\StudyBuddy.Application.dll
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Application\obj\Debug\net8.0\StudyBuddy.Application.pdb
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Application\obj\Debug\net8.0\ref\StudyBuddy.Application.dll
