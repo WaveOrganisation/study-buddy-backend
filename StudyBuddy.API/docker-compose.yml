@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  webapi:
+    image: mcr.microsoft.com/dotnet/aspnet:8.0
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=Host=162.248.101.218;Database=PLwRCBRFBY9t4ohvfFWNjmLHY2MRDnLCTpeZI2lffFlCerjROPk3kbWyAxQ4Q5ox;Username=postgres;Password=postgres
+      - Jwt__Key=YourSuperSecretKey
+      - Jwt__Issuer=YourIssuer
+      - Jwt__Audience=YourAudience
+    ports:
+      - "8080:80"
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
+      POSTGRES_DB: mydb
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+  postgres-data:

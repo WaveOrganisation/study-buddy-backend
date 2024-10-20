@@ -1,0 +1,161 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\StudyBuddy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7402FAA-641D-463F-BA44-0F5443EDCB3B}|StudyBuddy.Domain\\StudyBuddy.Domain.csproj|c:\\users\\user\\source\\repos\\studybuddy\\studybuddy.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7402FAA-641D-463F-BA44-0F5443EDCB3B}|StudyBuddy.Domain\\StudyBuddy.Domain.csproj|solutionrelative:studybuddy.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7402FAA-641D-463F-BA44-0F5443EDCB3B}|StudyBuddy.Domain\\StudyBuddy.Domain.csproj|c:\\users\\user\\source\\repos\\studybuddy\\studybuddy.domain\\studybuddy.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A7402FAA-641D-463F-BA44-0F5443EDCB3B}|StudyBuddy.Domain\\StudyBuddy.Domain.csproj|solutionrelative:studybuddy.domain\\studybuddy.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{986342FA-65EA-488B-B175-E1215846D991}|StudyBuddy.API\\StudyBuddy.API.csproj|c:\\users\\user\\source\\repos\\studybuddy\\studybuddy.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{986342FA-65EA-488B-B175-E1215846D991}|StudyBuddy.API\\StudyBuddy.API.csproj|solutionrelative:studybuddy.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{986342FA-65EA-488B-B175-E1215846D991}|StudyBuddy.API\\StudyBuddy.API.csproj|c:\\users\\user\\source\\repos\\studybuddy\\studybuddy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{986342FA-65EA-488B-B175-E1215846D991}|StudyBuddy.API\\StudyBuddy.API.csproj|solutionrelative:studybuddy.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE1D523-055D-4743-B0D4-6E69BA63E76E}|StudyBuddy.Application\\StudyBuddy.Application.csproj|c:\\users\\user\\source\\repos\\studybuddy\\studybuddy.application\\studybuddy.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DEE1D523-055D-4743-B0D4-6E69BA63E76E}|StudyBuddy.Application\\StudyBuddy.Application.csproj|solutionrelative:studybuddy.application\\studybuddy.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{986342FA-65EA-488B-B175-E1215846D991}|StudyBuddy.API\\StudyBuddy.API.csproj|c:\\users\\user\\source\\repos\\studybuddy\\studybuddy.api\\studybuddy.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{986342FA-65EA-488B-B175-E1215846D991}|StudyBuddy.API\\StudyBuddy.API.csproj|solutionrelative:studybuddy.api\\studybuddy.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{986342FA-65EA-488B-B175-E1215846D991}|StudyBuddy.API\\StudyBuddy.API.csproj|c:\\users\\user\\source\\repos\\studybuddy\\studybuddy.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{986342FA-65EA-488B-B175-E1215846D991}|StudyBuddy.API\\StudyBuddy.API.csproj|solutionrelative:studybuddy.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99775CEA-785A-4896-BEA5-DDBA632939B7}|StudyBuddy.Tests\\StudyBuddy.Tests.csproj|c:\\users\\user\\source\\repos\\studybuddy\\studybuddy.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99775CEA-785A-4896-BEA5-DDBA632939B7}|StudyBuddy.Tests\\StudyBuddy.Tests.csproj|solutionrelative:studybuddy.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\StudyBuddy\\StudyBuddy.Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "StudyBuddy.Domain\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\StudyBuddy\\StudyBuddy.Domain\\Models\\User.cs",
+              "RelativeToolTip": "StudyBuddy.Domain\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T12:39:09.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudyBuddy.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\StudyBuddy\\StudyBuddy.Application\\StudyBuddy.Application.csproj",
+              "RelativeDocumentMoniker": "StudyBuddy.Application\\StudyBuddy.Application.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\StudyBuddy\\StudyBuddy.Application\\StudyBuddy.Application.csproj",
+              "RelativeToolTip": "StudyBuddy.Application\\StudyBuddy.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-30T16:57:16.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudyBuddy.API.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\StudyBuddy\\StudyBuddy.API\\StudyBuddy.API.csproj",
+              "RelativeDocumentMoniker": "StudyBuddy.API\\StudyBuddy.API.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\StudyBuddy\\StudyBuddy.API\\StudyBuddy.API.csproj",
+              "RelativeToolTip": "StudyBuddy.API\\StudyBuddy.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-30T16:54:48.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\StudyBuddy\\StudyBuddy.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "StudyBuddy.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\StudyBuddy\\StudyBuddy.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "StudyBuddy.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T16:55:41.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudyBuddy.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\StudyBuddy\\StudyBuddy.Domain\\StudyBuddy.Domain.csproj",
+              "RelativeDocumentMoniker": "StudyBuddy.Domain\\StudyBuddy.Domain.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\StudyBuddy\\StudyBuddy.Domain\\StudyBuddy.Domain.csproj",
+              "RelativeToolTip": "StudyBuddy.Domain\\StudyBuddy.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-30T15:46:14.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\StudyBuddy\\StudyBuddy.API\\Program.cs",
+              "RelativeDocumentMoniker": "StudyBuddy.API\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\StudyBuddy\\StudyBuddy.API\\Program.cs",
+              "RelativeToolTip": "StudyBuddy.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T15:46:14.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\StudyBuddy\\StudyBuddy.API\\appsettings.json",
+              "RelativeDocumentMoniker": "StudyBuddy.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\StudyBuddy\\StudyBuddy.API\\appsettings.json",
+              "RelativeToolTip": "StudyBuddy.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-30T15:46:13.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\StudyBuddy\\StudyBuddy.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "StudyBuddy.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\StudyBuddy\\StudyBuddy.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "StudyBuddy.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T15:46:10.62Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
