@@ -1,7 +1,17 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using MyProject.Domain.Models;
 
-public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+namespace MyProject.Infrastructure.Data
 {
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+    {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            builder.Entity<ApplicationUser>().Property(u => u.Role).HasMaxLength(20);
+        }
+    }
 }

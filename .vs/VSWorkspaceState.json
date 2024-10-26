@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\StudyBuddy.API",
+    "\\StudyBuddy.API\\Controllers",
+    "\\StudyBuddy.Application",
+    "\\StudyBuddy.Application\\DTOs",
+    "\\StudyBuddy.Domain",
+    "\\StudyBuddy.Domain\\Models"
+  ],
+  "SelectedNode": "\\StudyBuddy.Application\\DTOs\\LoginDTO.cs",
+  "PreviewInSolutionExplorer": false
+}
