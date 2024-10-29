@@ -14,9 +14,10 @@ public static class UsersEndpoints
     }
 
     private static async Task<IResult> Register(
-        RegisterUserRequest request,UsersService usersService, ILogger logger)
+        RegisterUserRequest request,
+        UsersService usersService)
     {
-        await usersService.Register(request.);
+        await usersService.Register(request.UserNickName, request.UserFullName, request.Password);
         
         return Results.Ok("Register");
     }

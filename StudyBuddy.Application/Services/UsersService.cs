@@ -7,16 +7,17 @@ public class UsersService
 {
     private readonly IPasswordHasher _passwordHasher;
     
-    public UsersService(IPasswordHasher passwordHasher)
+    public UsersService(IUsersRepository usersRepository, IPasswordHasher passwordHasher)
     {
         _passwordHasher = passwordHasher;
     }
     
-    public async Task Register(string userPhone, string userName, string userFullName, string password)
+    public async Task Register(string userNickName, string userFullName, string password)
     {
         var hashedPassword = _passwordHasher.Generate(password);
         
+        var user = User.Create(Guid.NewGuid(), userNickName, userFullName, hashedPassword);
         
-        
+        await _usersRepository.Add(user);
     }
 }
