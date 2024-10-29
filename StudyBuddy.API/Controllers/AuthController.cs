@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using StudyBuddy.Domain.Models;
-using StudyBuddy.DTOs;
+using StudyBuddy.Application.DTOs;
 using System.Threading.Tasks;
 
 namespace StudyBuddy.Controllers

@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using MyProject.Domain.Models;
+using StudyBuddy.Domain.Models;
 
 namespace MyProject.Infrastructure.Data
 {
