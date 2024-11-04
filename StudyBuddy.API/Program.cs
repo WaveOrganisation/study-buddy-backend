@@ -1,18 +1,23 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using MyProject.Infrastructure.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configure database connection (using PostgreSQL in this example)
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Configure Identity with custom ApplicationUser class
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
+// Configure JWT authentication
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -32,14 +37,17 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+// Add authorization and controllers
 builder.Services.AddAuthorization();
 builder.Services.AddControllers();
 
 var app = builder.Build();
 
+// Middleware configuration
 app.UseAuthentication();
 app.UseAuthorization();
 
+// Role initialization
 using (var scope = app.Services.CreateScope())
 {
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
@@ -54,6 +62,7 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
+// Map controller routes
 app.MapControllers();
 
 app.Run();

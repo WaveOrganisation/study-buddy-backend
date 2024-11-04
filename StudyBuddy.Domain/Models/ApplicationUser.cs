@@ -1,9 +1,7 @@
-using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 
-namespace StudyBuddy.Domain.Models
+public class ApplicationUser : IdentityUser
 {
-    public class ApplicationUser : IdentityUser
-    {
-        public string Role { get; set; } = "Student"; 
-    }
+    public string UserFullName { get; set; }
+    public string UserNickName { get; set; }
 }
