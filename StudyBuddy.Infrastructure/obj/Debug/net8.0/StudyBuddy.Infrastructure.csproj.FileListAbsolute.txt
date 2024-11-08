@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\bin\Debug\net8.0\StudyBuddy.Infrastructure.deps.json
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\bin\Debug\net8.0\StudyBuddy.Infrastructure.dll
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\bin\Debug\net8.0\StudyBuddy.Infrastructure.pdb
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\bin\Debug\net8.0\StudyBuddy.Application.dll
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\bin\Debug\net8.0\StudyBuddy.Domain.dll
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\bin\Debug\net8.0\StudyBuddy.Application.pdb
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\bin\Debug\net8.0\StudyBuddy.Domain.pdb
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\obj\Debug\net8.0\StudyBuddy.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\obj\Debug\net8.0\StudyBuddy.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\obj\Debug\net8.0\StudyBuddy.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\obj\Debug\net8.0\StudyBuddy.Infrastructure.AssemblyInfo.cs
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\obj\Debug\net8.0\StudyBuddy.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\obj\Debug\net8.0\StudyBud.CBF6C833.Up2Date
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\obj\Debug\net8.0\StudyBuddy.Infrastructure.dll
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\obj\Debug\net8.0\refint\StudyBuddy.Infrastructure.dll
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\obj\Debug\net8.0\StudyBuddy.Infrastructure.pdb
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\obj\Debug\net8.0\ref\StudyBuddy.Infrastructure.dll

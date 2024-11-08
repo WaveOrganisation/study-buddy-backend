@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  studybuddy-api:
+    build:
+      context: .
+      dockerfile: StudyBuddy.API/Dockerfile
+    ports:
+      - "8080:80"  
+    networks:
+      - studybuddy-network
+    depends_on:
+      - studybuddy-persistence
+      - studybuddy-infrastructure
+
+  studybuddy-persistence:
+    build:
+      context: .
+      dockerfile: StudyBuddy.Persistence/Dockerfile
+    networks:
+      - studybuddy-network
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+
+  studybuddy-infrastructure:
+    build:
+      context: .
+      dockerfile: StudyBuddy.Infrastructure/Dockerfile
+    networks:
+      - studybuddy-network
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+
+  studybuddy-application:
+    build:
+      context: .
+      dockerfile: StudyBuddy.Application/Dockerfile
+    networks:
+      - studybuddy-network
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+
+  studybuddy-tests:
+    build:
+      context: .
+      dockerfile: StudyBuddy.Tests/Dockerfile
+    networks:
+      - studybuddy-network
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+
+networks:
+  studybuddy-network:
+    driver: bridge
