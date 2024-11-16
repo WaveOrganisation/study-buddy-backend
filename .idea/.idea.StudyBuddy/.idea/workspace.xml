@@ -15,46 +15,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abddfae0-20e4-4986-bb4a-f5a11d457716" name="Changes" comment="">
+    <list default="true" id="abddfae0-20e4-4986-bb4a-f5a11d457716" name="Changes" comment="Docker fix">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.StudyBuddy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StudyBuddy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/StudyBuddy.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/StudyBuddy.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/StudyBuddy.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/StudyBuddy.API.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/obj/StudyBuddy.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/obj/StudyBuddy.API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/obj/Debug/net8.0/StudyBuddy.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/obj/Debug/net8.0/StudyBuddy.Application.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/obj/Debug/net8.0/StudyBuddy.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/obj/Debug/net8.0/StudyBuddy.Application.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/obj/StudyBuddy.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/obj/StudyBuddy.Application.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Domain/obj/Debug/net8.0/StudyBuddy.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Domain/obj/Debug/net8.0/StudyBuddy.Domain.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Domain/obj/Debug/net8.0/StudyBuddy.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Domain/obj/Debug/net8.0/StudyBuddy.Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Domain/obj/StudyBuddy.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Domain/obj/StudyBuddy.Domain.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Domain/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Domain/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/Debug/net8.0/StudyBuddy.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/Debug/net8.0/StudyBuddy.Infrastructure.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/Debug/net8.0/StudyBuddy.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/Debug/net8.0/StudyBuddy.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/StudyBuddy.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/StudyBuddy.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/StudyBuddy.Persistence.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/StudyBuddy.Persistence.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Tests/obj/StudyBuddy.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Tests/obj/StudyBuddy.Tests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Tests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Tests/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Tests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Tests/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-buddy-backend" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,6 +280,7 @@
       <workItem from="1731600022234" duration="2587000" />
       <workItem from="1731602874159" duration="4288000" />
       <workItem from="1731686567705" duration="6460000" />
+      <workItem from="1731794650964" duration="1689000" />
     </task>
     <task id="LOCAL-00001" summary="fixed login">
       <option name="closed" value="true" />
@@ -357,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731790868847</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Docker fix">
+      <option name="closed" value="true" />
+      <created>1731794865615</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731794865615</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,6 +356,7 @@
     <MESSAGE value="Pre fix" />
     <MESSAGE value="final" />
     <MESSAGE value="f1" />
-    <option name="LAST_COMMIT_MESSAGE" value="f1" />
+    <MESSAGE value="Docker fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Docker fix" />
   </component>
 </project>
