@@ -16,91 +16,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abddfae0-20e4-4986-bb4a-f5a11d457716" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.StudyBuddy/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StudyBuddy/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.StudyBuddy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StudyBuddy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/Contracts/Users/RegisterUserRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/Contracts/Users/RegisterUserRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/Contracts/Users/VerifyConfirmationCodeRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/Contracts/Users/VerifyConfirmationCodeRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/Endpoints/UsersEndpoints.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/Endpoints/UsersEndpoints.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.API.exe" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.API.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.Persistence.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/StudyBuddy.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/StudyBuddy.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/StudyBuddy.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/StudyBuddy.API.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/StudyBuddy.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/StudyBuddy.API.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/StudyBuddy.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/StudyBuddy.API.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/StudyBuddy.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/StudyBuddy.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/StudyBuddy.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/StudyBuddy.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/ref/StudyBuddy.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/ref/StudyBuddy.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/refint/StudyBuddy.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/obj/Debug/net8.0/refint/StudyBuddy.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/Services/UserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/StudyBuddy.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/StudyBuddy.Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/bin/Debug/net8.0/StudyBuddy.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/bin/Debug/net8.0/StudyBuddy.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/bin/Debug/net8.0/StudyBuddy.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/bin/Debug/net8.0/StudyBuddy.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/bin/Debug/net8.0/StudyBuddy.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/bin/Debug/net8.0/StudyBuddy.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/bin/Debug/net8.0/StudyBuddy.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/bin/Debug/net8.0/StudyBuddy.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/obj/StudyBuddy.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/obj/StudyBuddy.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/obj/Debug/net8.0/StudyBuddy.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/obj/Debug/net8.0/StudyBuddy.Application.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/obj/Debug/net8.0/StudyBuddy.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/obj/Debug/net8.0/StudyBuddy.Application.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/obj/Debug/net8.0/StudyBuddy.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/obj/Debug/net8.0/StudyBuddy.Application.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/obj/Debug/net8.0/StudyBuddy.Application.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/obj/Debug/net8.0/StudyBuddy.Application.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/obj/Debug/net8.0/StudyBuddy.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/obj/Debug/net8.0/StudyBuddy.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/obj/Debug/net8.0/StudyBuddy.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/obj/Debug/net8.0/StudyBuddy.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/obj/Debug/net8.0/ref/StudyBuddy.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/obj/Debug/net8.0/ref/StudyBuddy.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/obj/Debug/net8.0/refint/StudyBuddy.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/obj/Debug/net8.0/refint/StudyBuddy.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Domain/StudyBuddy.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Domain/StudyBuddy.Domain.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Domain/bin/Debug/net8.0/StudyBuddy.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Domain/bin/Debug/net8.0/StudyBuddy.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Domain/bin/Debug/net8.0/StudyBuddy.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Domain/bin/Debug/net8.0/StudyBuddy.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/obj/StudyBuddy.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/obj/StudyBuddy.Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Application/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.Domain/obj/Debug/net8.0/StudyBuddy.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Domain/obj/Debug/net8.0/StudyBuddy.Domain.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.Domain/obj/Debug/net8.0/StudyBuddy.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Domain/obj/Debug/net8.0/StudyBuddy.Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Domain/obj/Debug/net8.0/StudyBuddy.Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Domain/obj/Debug/net8.0/StudyBuddy.Domain.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Domain/obj/Debug/net8.0/StudyBuddy.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Domain/obj/Debug/net8.0/StudyBuddy.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Domain/obj/Debug/net8.0/StudyBuddy.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Domain/obj/Debug/net8.0/StudyBuddy.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Domain/obj/Debug/net8.0/ref/StudyBuddy.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Domain/obj/Debug/net8.0/ref/StudyBuddy.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Domain/obj/Debug/net8.0/refint/StudyBuddy.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Domain/obj/Debug/net8.0/refint/StudyBuddy.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/bin/Debug/net8.0/StudyBuddy.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/bin/Debug/net8.0/StudyBuddy.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/bin/Debug/net8.0/StudyBuddy.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/bin/Debug/net8.0/StudyBuddy.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/bin/Debug/net8.0/StudyBuddy.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/bin/Debug/net8.0/StudyBuddy.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/bin/Debug/net8.0/StudyBuddy.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/bin/Debug/net8.0/StudyBuddy.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/bin/Debug/net8.0/StudyBuddy.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/bin/Debug/net8.0/StudyBuddy.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/bin/Debug/net8.0/StudyBuddy.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/bin/Debug/net8.0/StudyBuddy.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Domain/obj/StudyBuddy.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Domain/obj/StudyBuddy.Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Domain/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/Debug/net8.0/StudyBuddy.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/Debug/net8.0/StudyBuddy.Infrastructure.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/Debug/net8.0/StudyBuddy.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/Debug/net8.0/StudyBuddy.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/Debug/net8.0/StudyBuddy.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/Debug/net8.0/StudyBuddy.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/Debug/net8.0/StudyBuddy.Infrastructure.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/Debug/net8.0/StudyBuddy.Infrastructure.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/Debug/net8.0/StudyBuddy.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/Debug/net8.0/StudyBuddy.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/Debug/net8.0/StudyBuddy.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/Debug/net8.0/StudyBuddy.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/Debug/net8.0/ref/StudyBuddy.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/Debug/net8.0/ref/StudyBuddy.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/Debug/net8.0/refint/StudyBuddy.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/Debug/net8.0/refint/StudyBuddy.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/StudyBuddy.Persistence.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/StudyBuddy.Persistence.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/bin/Debug/net8.0/StudyBuddy.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/bin/Debug/net8.0/StudyBuddy.Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/bin/Debug/net8.0/StudyBuddy.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/bin/Debug/net8.0/StudyBuddy.Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/bin/Debug/net8.0/StudyBuddy.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/bin/Debug/net8.0/StudyBuddy.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/bin/Debug/net8.0/StudyBuddy.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/bin/Debug/net8.0/StudyBuddy.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/bin/Debug/net8.0/StudyBuddy.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/bin/Debug/net8.0/StudyBuddy.Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/bin/Debug/net8.0/StudyBuddy.Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/bin/Debug/net8.0/StudyBuddy.Persistence.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/StudyBuddy.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/StudyBuddy.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/ref/StudyBuddy.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/ref/StudyBuddy.Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/refint/StudyBuddy.Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/refint/StudyBuddy.Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudyBuddy.Tests/bin/Debug/net8.0/CoverletSourceRootsMapping_StudyBuddy.Tests" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Tests/bin/Debug/net8.0/CoverletSourceRootsMapping_StudyBuddy.Tests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/StudyBuddy.Persistence.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/StudyBuddy.Persistence.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Tests/obj/StudyBuddy.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Tests/obj/StudyBuddy.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Tests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Tests/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-buddy-backend" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +62,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DpaMonitoringSettings">
-    <option name="autoShow" value="false" />
+    <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -150,9 +104,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.StudyBuddy.API: https.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Launch Settings Profile.StudyBuddy.API: https.executor&quot;: &quot;Run&quot;,
     &quot;Docker.StudyBuddy.API/Dockerfile.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -169,7 +124,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Docker.StudyBuddy.API/Dockerfile">
+  <component name="RunManager" selected=".NET Launch Settings Profile.StudyBuddy.API: https">
     <configuration name="Persistence: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Persistence/Persistence.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -360,6 +315,7 @@
       <workItem from="1731069502165" duration="1290000" />
       <workItem from="1731600022234" duration="2587000" />
       <workItem from="1731602874159" duration="4288000" />
+      <workItem from="1731686567705" duration="6460000" />
     </task>
     <task id="LOCAL-00001" summary="fixed login">
       <option name="closed" value="true" />
@@ -385,7 +341,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730697037547</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="final">
+      <option name="closed" value="true" />
+      <created>1731790438712</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731790438712</updated>
+    </task>
+    <task id="LOCAL-00005" summary="f1">
+      <option name="closed" value="true" />
+      <created>1731790868847</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731790868847</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,6 +381,8 @@
     <MESSAGE value="fixed login" />
     <MESSAGE value="fix num2" />
     <MESSAGE value="Pre fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pre fix" />
+    <MESSAGE value="final" />
+    <MESSAGE value="f1" />
+    <option name="LAST_COMMIT_MESSAGE" value="f1" />
   </component>
 </project>
