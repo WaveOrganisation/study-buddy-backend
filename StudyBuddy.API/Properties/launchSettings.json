@@ -17,6 +17,13 @@
       "applicationUrl": "http://localhost:5042",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "production": {
+        "commandName": "Project",
+        "applicationUrl": "https://studybuddyback.onrender.com",
+        "environmentVariables": {
+          "ASPNETCORE_ENVIRONMENT": "Production"
+        }
       }
     },
     "https": {
