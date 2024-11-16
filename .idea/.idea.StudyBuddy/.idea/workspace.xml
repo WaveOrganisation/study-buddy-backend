@@ -15,9 +15,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abddfae0-20e4-4986-bb4a-f5a11d457716" name="Changes" comment="CORS">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.StudyBuddy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StudyBuddy/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="abddfae0-20e4-4986-bb4a-f5a11d457716" name="Changes" comment="DomenFIx" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,6 +175,21 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="StudyBuddy.API: production" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/StudyBuddy.API/StudyBuddy.API.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="production" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="WebApplication1: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApplication1/WebApplication1.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -278,7 +291,7 @@
       <workItem from="1731600022234" duration="2587000" />
       <workItem from="1731602874159" duration="4288000" />
       <workItem from="1731686567705" duration="6460000" />
-      <workItem from="1731794650964" duration="3313000" />
+      <workItem from="1731794650964" duration="3804000" />
     </task>
     <task id="LOCAL-00001" summary="fixed login">
       <option name="closed" value="true" />
@@ -336,7 +349,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731797411511</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="DomenFIx">
+      <option name="closed" value="true" />
+      <created>1731799653250</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731799653250</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,6 +385,7 @@
     <MESSAGE value="f1" />
     <MESSAGE value="Docker fix" />
     <MESSAGE value="CORS" />
-    <option name="LAST_COMMIT_MESSAGE" value="CORS" />
+    <MESSAGE value="DomenFIx" />
+    <option name="LAST_COMMIT_MESSAGE" value="DomenFIx" />
   </component>
 </project>
