@@ -1,3 +1,4 @@
+// API для отправки кода и подтверждения номера
 using StudyBuddy.API.Contracts.Users;
 using StudyBuddy.Application.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -8,10 +9,10 @@ public static class UsersEndpoints
 {
     public static IEndpointRouteBuilder MapUsersEndpoints(this IEndpointRouteBuilder app)
     {
-        app.MapPost("send-confirmation-code", SendConfirmationCode);
-        app.MapPost("confirm-phone", VerifyConfirmationCode);
-        app.MapPost("register", Register);
-        app.MapPost("login", Login);
+        app.MapPost("auth/send-confirmation-code", SendConfirmationCode);
+        app.MapPost("auth/confirm-phone", VerifyConfirmationCode);
+        app.MapPost("auth/register", Register);
+        app.MapPost("auth/login", Login);
 
         return app;
     }
@@ -21,72 +22,47 @@ public static class UsersEndpoints
         UserService userService)
     {
         var code = userService.GenerateConfirmationCode(request.PhoneNumber);
-
         return Results.Ok(new { ConfirmationCode = code });
     }
-    
+
     private static async Task<IResult> VerifyConfirmationCode(
         [FromBody] VerifyConfirmationCodeRequest request,
-        UserService usersService)
+        UserService userService)
     {
-        var isCodeValid = usersService.VerifyConfirmationCode(request.PhoneNumber, request.ConfirmationCode);
+        var isCodeValid = userService.VerifyConfirmationCode(request.PhoneNumber, request.ConfirmationCode);
 
         if (!isCodeValid)
         {
             return Results.BadRequest("Invalid confirmation code.");
         }
 
-        // После подтверждения регистрация
-        await usersService.Register(request.UserNickName, request.Password, request.UserFullName, request.PhoneNumber);
-        
-        return Results.Ok("Registration successful.");
+        // Устанавливаем подтверждение для номера телефона
+        userService.MarkPhoneAsConfirmed(request.PhoneNumber);
+        return Results.Ok("Phone confirmed successfully.");
     }
-    
+
     private static async Task<IResult> Register(
         [FromBody] RegisterUserRequest request,
-        UserService usersService)
-    {
-        await usersService.Register(request.UserPhone, request.UserNickName, request.UserFullName , request.Password);
-        return Results.Ok();
-    }
-    
-    /*
-    private static async Task<IResult> ConfirmPhoneNumber(
-        [FromBody] VerifyConfirmationCodeRequest request,
         UserService userService)
     {
-        var savedCode = await userService.GetStoredConfirmationCode(request.PhoneNumber);
+        var isPhoneConfirmed = userService.IsPhoneConfirmed(request.PhoneNumber);
 
-        if (savedCode == null)
+        if (!isPhoneConfirmed)
         {
-            return Results.BadRequest("No confirmation code found.");
+            return Results.BadRequest("Phone number not confirmed.");
         }
 
-        if (request.Code != savedCode)
-        {
-            return Results.BadRequest("Invalid confirmation code.");
-        }
-
-        var user = await userService.GetByPhoneNumber(request.PhoneNumber);
-        if (user != null)
-        {
-            return Results.BadRequest("Phone number already confirmed.");
-        }
-
-
-        return Results.Ok(new { Message = "Phone number confirmed" });
+        await userService.Register(request.UserNickName, request.Password, request.UserFullName, request.PhoneNumber);
+        return Results.Ok("Registration successful.");
     }
-    */
 
     private static async Task<IResult> Login(
         [FromBody] LoginUserRequest request,
-        UserService usersService,
+        UserService userService,
         HttpContext context)
     {
-        var token = await usersService.Login(request.Phone, request.Password);
-
+        var token = await userService.Login(request.Phone, request.Password);
         context.Response.Cookies.Append("secretCookie", token);
-
         return Results.Ok(token);
     }
 }

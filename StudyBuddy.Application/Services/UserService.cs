@@ -4,13 +4,17 @@ using StudyBuddy.Application.Interfaces.Repositories;
 using StudyBuddy.Domain.Models;
 
 namespace StudyBuddy.Application.Services;
+
 public class UserService
 {
     private readonly IUsersRepository _usersRepository;
     private readonly IPasswordHasher _passwordHasher;
     private readonly IJwtProvider _jwtProvider;
-    
-    private static readonly ConcurrentDictionary<string, string> _confirmationCodes = new();    
+
+    // Хранение кодов подтверждения и статуса подтверждения
+    private static readonly ConcurrentDictionary<string, string> _confirmationCodes = new();
+    private static readonly ConcurrentDictionary<string, bool> _confirmedPhones = new();
+
     public UserService(
         IUsersRepository usersRepository,
         IPasswordHasher passwordHasher,
@@ -20,7 +24,7 @@ public class UserService
         _passwordHasher = passwordHasher;
         _jwtProvider = jwtProvider;
     }
-    
+
     public string GenerateConfirmationCode(string phoneNumber)
     {
         var random = new Random();
@@ -28,12 +32,22 @@ public class UserService
         _confirmationCodes[phoneNumber] = code;
         return code;
     }
-    
+
     public bool VerifyConfirmationCode(string phoneNumber, string code)
     {
-        return _confirmationCodes.ContainsKey(phoneNumber) && _confirmationCodes[phoneNumber] == code;
+        return _confirmationCodes.TryGetValue(phoneNumber, out var storedCode) && storedCode == code;
     }
-    
+
+    public void MarkPhoneAsConfirmed(string phoneNumber)
+    {
+        _confirmedPhones[phoneNumber] = true;
+    }
+
+    public bool IsPhoneConfirmed(string phoneNumber)
+    {
+        return _confirmedPhones.TryGetValue(phoneNumber, out var confirmed) && confirmed;
+    }
+
     public async Task Register(string userNickName, string password, string userFullName, string phoneNumber)
     {
         var hashedPassword = _passwordHasher.Generate(password);
@@ -44,7 +58,7 @@ public class UserService
             hashedPassword,
             userFullName,
             phoneNumber
-            );
+        );
 
         await _usersRepository.Add(user);
     }
@@ -52,33 +66,13 @@ public class UserService
     public async Task<string> Login(string phone, string password)
     {
         var user = await _usersRepository.GetByPhone(phone);
-
         var result = _passwordHasher.Verify(password, user.PasswordHash);
 
-        if (result == false)
+        if (!result)
         {
             throw new Exception("Failed to login");
         }
 
-        var token = _jwtProvider.Generate(user);
-
-        return token;
-    }
-    
-    public Task StoreConfirmationCode(string phoneNumber, string confirmationCode)
-    {
-        _confirmationCodes[phoneNumber] = confirmationCode;
-        return Task.CompletedTask;
-    }
-
-    public Task<string?> GetStoredConfirmationCode(string phoneNumber)
-    {
-        _confirmationCodes.TryGetValue(phoneNumber, out var code);
-        return Task.FromResult(code);
-    }
-
-    public async Task<User?> GetByPhoneNumber(string phoneNumber)
-    {
-        return await _usersRepository.GetByPhone(phoneNumber);
+        return _jwtProvider.Generate(user);
     }
 }

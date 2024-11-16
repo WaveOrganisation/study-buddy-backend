@@ -17,3 +17,4 @@ C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Persistence\obj\Debug\net8.0\re
 C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Persistence\obj\Debug\net8.0\StudyBuddy.Persistence.pdb
 C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Persistence\obj\Debug\net8.0\StudyBuddy.Persistence.genruntimeconfig.cache
 C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Persistence\obj\Debug\net8.0\ref\StudyBuddy.Persistence.dll
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Persistence\obj\Debug\net8.0\StudyBuddy.Persistence.sourcelink.json

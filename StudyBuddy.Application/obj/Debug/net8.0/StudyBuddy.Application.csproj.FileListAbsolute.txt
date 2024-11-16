@@ -13,3 +13,4 @@ C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Application\obj\Debug\net8.0\St
 C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Application\obj\Debug\net8.0\refint\StudyBuddy.Application.dll
 C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Application\obj\Debug\net8.0\StudyBuddy.Application.pdb
 C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Application\obj\Debug\net8.0\ref\StudyBuddy.Application.dll
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Application\obj\Debug\net8.0\StudyBuddy.Application.sourcelink.json

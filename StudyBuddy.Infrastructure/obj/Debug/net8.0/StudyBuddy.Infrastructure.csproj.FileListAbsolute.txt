@@ -15,3 +15,4 @@ C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\obj\Debug\net8.0
 C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\obj\Debug\net8.0\refint\StudyBuddy.Infrastructure.dll
 C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\obj\Debug\net8.0\StudyBuddy.Infrastructure.pdb
 C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\obj\Debug\net8.0\ref\StudyBuddy.Infrastructure.dll
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Infrastructure\obj\Debug\net8.0\StudyBuddy.Infrastructure.sourcelink.json

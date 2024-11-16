@@ -10,3 +10,4 @@ C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Domain\obj\Debug\net8.0\StudyBu
 C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Domain\obj\Debug\net8.0\refint\StudyBuddy.Domain.dll
 C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Domain\obj\Debug\net8.0\StudyBuddy.Domain.pdb
 C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Domain\obj\Debug\net8.0\ref\StudyBuddy.Domain.dll
+C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Domain\obj\Debug\net8.0\StudyBuddy.Domain.sourcelink.json

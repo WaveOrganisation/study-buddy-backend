@@ -10,6 +10,8 @@ public class User
         UserFullname = userFullname;
         Phone = phone;
     }
+    
+    protected User() { }
 
     public Guid Id { get; set; }
 

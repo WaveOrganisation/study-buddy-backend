@@ -1,54 +1,43 @@
-version: '3.8'
+version: '3.4'
 
 services:
-  studybuddy-api:
+  api:
+    container_name: studybuddy-api
     build:
       context: .
-      dockerfile: StudyBuddy.API/Dockerfile
+      dockerfile: Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__StudyBuddyDbContext=Host=db;Port=5432;Username=postgres;Password=postgres;Database=studybuddydb;
+      - JwtOptions__SecretKey=secretkeysecretkeysecretkeysecretkeysecretkeysecretkeysecretkey
+      - JwtOptions__ExpiresHours=52
     ports:
-      - "8080:80"  
-    networks:
-      - studybuddy-network
+      - "8080:80"  # Порты для API
+      - "8081:443"
     depends_on:
-      - studybuddy-persistence
-      - studybuddy-infrastructure
-
-  studybuddy-persistence:
-    build:
-      context: .
-      dockerfile: StudyBuddy.Persistence/Dockerfile
+      - db
+    volumes:
+      - ./StudyBuddy.API/appsettings.json:/app/appsettings.json  # Монтирование файла конфигурации
     networks:
-      - studybuddy-network
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Production
+      - studybuddy_network
 
-  studybuddy-infrastructure:
-    build:
-      context: .
-      dockerfile: StudyBuddy.Infrastructure/Dockerfile
-    networks:
-      - studybuddy-network
+  db:
+    container_name: postgres
+    image: postgres:15-alpine
     environment:
-      - ASPNETCORE_ENVIRONMENT=Production
+      POSTGRES_DB: studybuddydb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"  # Прокси порт для PostgreSQL
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - studybuddy_network
 
-  studybuddy-application:
-    build:
-      context: .
-      dockerfile: StudyBuddy.Application/Dockerfile
-    networks:
-      - studybuddy-network
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Production
-
-  studybuddy-tests:
-    build:
-      context: .
-      dockerfile: StudyBuddy.Tests/Dockerfile
-    networks:
-      - studybuddy-network
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Production
+volumes:
+  postgres-data:
 
 networks:
-  studybuddy-network:
+  studybuddy_network:
     driver: bridge
