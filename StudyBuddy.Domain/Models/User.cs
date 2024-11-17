@@ -17,7 +17,7 @@ public class User
 
     public string UserName { get; private set; }
 
-    public string PasswordHash { get; private set; }
+    public string PasswordHash { get; set; }
     
     public string UserFullname { get; private set; }
     public string Phone { get; private set; }

@@ -13,6 +13,9 @@ var builder = WebApplication.CreateBuilder(args);
 var services = builder.Services;
 var configuration = builder.Configuration;
 
+services.AddMemoryCache(); 
+
+
 services.AddApiAuthentication(configuration);
 
 services.AddEndpointsApiExplorer();
@@ -39,6 +42,7 @@ services.AddScoped<UserService>();
 
 services.AddAutoMapper(typeof(DataBaseMappings));
 
+/*
 services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -48,6 +52,7 @@ services.AddCors(options =>
             .AllowAnyHeader();
     });
 });
+*/
 
 var app = builder.Build();
 
@@ -61,7 +66,7 @@ app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseHttpsRedirection();
 
-app.UseCors("AllowAll");
+//app.UseCors("AllowAll");
 
 app.UseCookiePolicy(new CookiePolicyOptions
 {
@@ -77,3 +82,4 @@ app.UseAuthorization();
 app.AddMappedEndpoints();
 
 app.Run();
+
