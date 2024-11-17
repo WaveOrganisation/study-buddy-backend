@@ -9,7 +9,7 @@ public static class UsersEndpoints
 {
     public static IEndpointRouteBuilder MapUsersEndpoints(this IEndpointRouteBuilder app)
     {
-        app.MapPost("/test", TestMap);
+        app.MapGet("/test", TestMap);
         
         app.MapPost("auth/send-confirmation-code", SendConfirmationCode);
         app.MapPost("auth/confirm-phone", VerifyConfirmationCode);
