@@ -9,15 +9,15 @@ public static class UsersEndpoints
 {
     public static IEndpointRouteBuilder MapUsersEndpoints(this IEndpointRouteBuilder app)
     {
-        app.MapGet("/test", TestMap);
+        app.MapGet("/test", TestMap); 
         
-        app.MapPost("auth/send-confirmation-code", SendConfirmationCode);
-        app.MapPost("auth/confirm-phone", VerifyConfirmationCode);
+        app.MapPost("auth/request-otp", SendConfirmationCode);
+        app.MapGet("auth/verify-otp", VerifyConfirmationCode);
         
-        app.MapPost("auth/register", Register);
-        app.MapPost("auth/login", Login);
+        app.MapPost("auth/sign-up", Register);
+        app.MapPost("auth/sign-in", Login);
 
-        app.MapPost("auth/forgot-password", ForgotPassword);
+        app.MapGet("auth/request-password-reset", ForgotPassword);
         app.MapPost("auth/reset-password", ResetPassword);
 
         

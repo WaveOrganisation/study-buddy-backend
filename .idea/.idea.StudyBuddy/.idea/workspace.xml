@@ -17,6 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abddfae0-20e4-4986-bb4a-f5a11d457716" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.StudyBuddy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StudyBuddy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.API/Endpoints/UsersEndpoints.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/Endpoints/UsersEndpoints.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.API.exe" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.API.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.API/bin/Debug/net8.0/StudyBuddy.API.pdb" afterDir="false" />
@@ -72,6 +74,7 @@
       <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/bin/Debug/net8.0/StudyBuddy.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/bin/Debug/net8.0/StudyBuddy.Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Persistence/obj/Debug/net8.0/StudyBuddy.Persistence.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StudyBuddy.Tests/obj/Debug/net8.0/StudyBuddy.Tests.csproj.AssemblyReference.cache" afterDir="false" />
@@ -135,7 +138,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;discord-application&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -144,7 +147,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Docker.StudyBuddy.API/Dockerfile">
+  <component name="RunManager" selected=".NET Launch Settings Profile.StudyBuddy.API: https">
     <configuration name="Persistence: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Persistence/Persistence.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -353,6 +356,12 @@
       <workItem from="1731686567705" duration="6460000" />
       <workItem from="1731794650964" duration="4592000" />
       <workItem from="1731857832876" duration="129000" />
+      <workItem from="1731868630385" duration="639000" />
+      <workItem from="1732106256173" duration="252000" />
+      <workItem from="1732106523508" duration="2114000" />
+      <workItem from="1732137500253" duration="41000" />
+      <workItem from="1732137603491" duration="62000" />
+      <workItem from="1732306724139" duration="443000" />
     </task>
     <task id="LOCAL-00001" summary="fixed login">
       <option name="closed" value="true" />
@@ -426,7 +435,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731800018130</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Get method test">
+      <option name="closed" value="true" />
+      <created>1731868675155</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731868675155</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,6 +473,7 @@
     <MESSAGE value="CORS" />
     <MESSAGE value="DomenFIx" />
     <MESSAGE value="Prod" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prod" />
+    <MESSAGE value="Get method test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Get method test" />
   </component>
 </project>
