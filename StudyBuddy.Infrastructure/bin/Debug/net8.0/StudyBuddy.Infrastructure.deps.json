@@ -239,7 +239,10 @@
           "StudyBuddy.Domain": "1.0.0"
         },
         "runtime": {
-          "StudyBuddy.Application.dll": {}
+          "StudyBuddy.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "StudyBuddy.Domain/1.0.0": {
@@ -247,7 +250,10 @@
           "Microsoft.EntityFrameworkCore": "9.0.0-rc.2.24474.1"
         },
         "runtime": {
-          "StudyBuddy.Domain.dll": {}
+          "StudyBuddy.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
