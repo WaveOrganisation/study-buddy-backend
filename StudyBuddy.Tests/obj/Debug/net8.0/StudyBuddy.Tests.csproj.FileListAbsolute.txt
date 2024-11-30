@@ -124,3 +124,4 @@ C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Tests\obj\Debug\net8.0\refint\S
 C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Tests\obj\Debug\net8.0\StudyBuddy.Tests.pdb
 C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Tests\obj\Debug\net8.0\StudyBuddy.Tests.genruntimeconfig.cache
 C:\Users\User\source\repos\StudyBuddy\StudyBuddy.Tests\obj\Debug\net8.0\ref\StudyBuddy.Tests.dll
+c:\Users\User\source\repos\StudyBuddy\StudyBuddy.Tests\obj\Debug\net8.0\StudyBuddy.Tests.sourcelink.json
