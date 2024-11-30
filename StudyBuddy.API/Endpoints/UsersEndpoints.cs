@@ -42,18 +42,18 @@ public static class UsersEndpoints
     }
 
     private static async Task<IResult> VerifyConfirmationCode(
-        [FromBody] VerifyConfirmationCodeRequest request,
+        [FromQuery] string PhoneNumber,
+        [FromQuery] string ConfirmationCode,
         UserService userService)
     {
-        var isCodeValid = userService.VerifyConfirmationCode(request.PhoneNumber, request.ConfirmationCode);
+        var isCodeValid = userService.VerifyConfirmationCode(PhoneNumber, ConfirmationCode);
 
         if (!isCodeValid)
         {
             return Results.BadRequest("Invalid confirmation code.");
         }
 
-        // Устанавливаем подтверждение для номера телефона
-        userService.MarkPhoneAsConfirmed(request.PhoneNumber);
+        userService.MarkPhoneAsConfirmed(PhoneNumber);
         return Results.Ok("Phone confirmed successfully.");
     }
 
@@ -83,15 +83,15 @@ public static class UsersEndpoints
     }
     
     private static async Task<IResult> ForgotPassword(
-        [FromBody] ForgotPasswordRequest request,
+        [FromQuery] string PhoneNumber,
         UserService userService)
     {
-        if (!await userService.IsPhoneNumberTaken(request.PhoneNumber))
+        if (!await userService.IsPhoneNumberTaken(PhoneNumber))
         {
             return Results.BadRequest("Phone number is not registered.");
         }
 
-        var code = userService.GenerateResetPasswordCode(request.PhoneNumber);
+        var code = userService.GenerateResetPasswordCode(PhoneNumber);
         return Results.Ok(new { ResetCode = code });
     }
     

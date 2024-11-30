@@ -70,7 +70,7 @@ namespace StudyBuddy.API.Endpoints
         }
     }
 
-    // Пример модели запроса
+    // Перавй тест 1Д
     public record CreateGameRequest(string GameId);
     public record JoinGameRequest(string GameId, string PlayerName, string ConnectionId);
     public record SendQuestionRequest(string GameId, string Question);

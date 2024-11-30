@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "9OfsyfRXIlx2evqq4eKYK6FQbGP1C4wwhTb5HHoASwc=",
+  "Hash": "X4vmMfmBRq6qFjYIHaO8aAckrLyynjcoHxONiUZQdY8=",
   "Source": "StudyBuddy.API",
   "BasePath": "_content/StudyBuddy.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

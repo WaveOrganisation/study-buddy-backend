@@ -39,6 +39,7 @@ services.AddScoped<IUsersRepository, UsersRepository>();
 //services.AddScoped<CoursesService>();
 //services.AddScoped<LessonsService>();
 services.AddScoped<UserService>();
+services.AddScoped<QuizService>();
 
 services.AddAutoMapper(typeof(DataBaseMappings));
 
@@ -53,6 +54,9 @@ services.AddCors(options =>
     });
 });
 */
+
+builder.Services.AddSignalR();
+
 
 var app = builder.Build();
 

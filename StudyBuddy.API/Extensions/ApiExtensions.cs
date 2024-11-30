@@ -11,6 +11,7 @@ public static class ApiExtensions
     public static void AddMappedEndpoints(this IEndpointRouteBuilder app)
     {
         app.MapUsersEndpoints();
+        app.MapQuizEndpoints();
     }
 
     public static void AddApiAuthentication(
