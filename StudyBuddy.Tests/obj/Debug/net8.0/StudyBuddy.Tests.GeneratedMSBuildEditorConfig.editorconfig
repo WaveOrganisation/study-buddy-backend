@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StudyBuddy.Tests
-build_property.ProjectDir = C:\Users\Elena\Source\Repos\study-buddy-backend\StudyBuddy.Tests\
+build_property.ProjectDir = C:\Users\Elena\source\repos\study-buddy-backend\StudyBuddy.Tests\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
